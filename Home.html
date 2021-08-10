@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Table with a Header, Footer and Body</title>
+    <style>
+
+    body{
+    	background-color:#f1f3f5;
+    }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+             background-color:#f1f3f5;
+
+            
+        }
+        table, th, td {
+            border: 5px solid black;
+
+
+        }
+        th, td {
+            padding: 50px;
+            text-align: center;
+
+        }
+          canvas{
+          	background-color: #94b9e3;
+          }
+
+         
+        
+    </style>
+</head>
+<body>
+
+<br>
+
+<canvas id="myCanvas" width="1650px" height="150px"
+style="border:3px solid #d3d3d3;">    
+
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "90px Comic Sans MS";
+
+ctx.strokeText("Welcome to Chess World",120,100);
+
+</script>
+
+
+<iframe src="lab1.html" style="height:800px;width:100%" title="Iframe Example"style="border:1px solid black;"></iframe>
+
+
+<center>
+
+<img src="map.jpeg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Chess.com#:~:text=1995%3A%20The%20domain%20Chess.com,software%20called%20%22Chess%20Mentor%22.">
+  
+
+</map>
+
+
+</center>
+
+
+	<center><caption><h1>Founder of chess world</h1></caption></center>
+  <center>  <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Job Role</th>
+                <th>Description</th>
+                <th>Place</th>
+                
+              
+            </tr>
+  
+            <tr>
+                <td>HARI</td>
+                <td>CEO</td>
+                <th>Developer</th>
+                <th>India</th>
+            </tr>
+            <tr> 
+            	 <th>HARISH</th>
+                <th>CO-founder</th>
+                <th>Developer</th>
+                <th>India</th>
+            </tr>
+        </thead>
+    </table></center>
+</body>
+</html>
