@@ -1,0 +1,63 @@
+body {
+    font-family: roboto;
+}
+
+header {
+	width: 110%;
+	height: 80px;
+	background:black;
+}
+
+img#logo {
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: 2em;
+	font-family: 'roboto';
+	margin-right: 20px;
+    padding: 30px;
+}
+
+a:hover {
+    color: white;
+    background:none;
+    padding: 30px;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    background: green                                                                                                                                                                                                                                   ;
+    color: white;
+    font-size: 2em;
+    border:none;
+}
+
+button:hover {
+    background: #0d2005;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
