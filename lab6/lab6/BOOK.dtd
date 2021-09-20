@@ -1,0 +1,16 @@
+<?xml version = "1.0"?>
+<!--BOOK.dtd-a document type definition for the currency.xml-->
+<!ELEMENT bookland (Client+)>
+<!ELEMENT Customer (name,address,book)>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (street,city,email,phone, description,price)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT Client (Cname)>
+<!ELEMENT Cname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

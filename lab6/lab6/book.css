@@ -1,0 +1,15 @@
+/*--book.css- a style sheet for the students.xml document */
+Customer{display: block; margin-top: 15px; color: rgb(6, 6, 17);}
+name{display: block; margin-left:40px;margin-top: 30pt;color:rgb(235, 201, 12)}
+firstname{font-size: 28pt;}
+lastname{font-size: 28pt;}
+address{display: block; margin-left:40px;color:rgb(12, 9, 6) ;border: 5pt solid black;   }
+street{display: block;font-size: 18pt;}
+city{display: block;font-size: 18pt;}
+email{display: block;font-size: 18pt;color:rgb(12, 12, 19)}
+phone{display: block;font-size: 18pt;}
+book{display: block; margin-left:20px;color:rgb(149, 238, 149)}
+Cname{display: block;font-size: 18pt; color: rgb(241, 9, 9);padding: 25px;}
+C1name{display: block;font-size: 18pt; color: blue;padding: 25px;}
+description{display: block;font-size: 18pt; color: left(7, 7, 14);padding: 25px;}
+price{display: block;font-size: 20pt; margin-left:20px;color:rgb(216, 181, 23)}

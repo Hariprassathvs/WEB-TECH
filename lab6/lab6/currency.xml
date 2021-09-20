@@ -1,0 +1,72 @@
+<?xml version = "1.0"?>
+<!--book.xml-->
+<bookland>
+<Customer>
+<name>
+<firstname> HARI </firstname>
+<lastname> PRASSATH  </lastname>
+</name>
+<address>
+<street> 101 South Street</street>
+<city> Halifax </city>
+<email> hariprassath@gmail.com   </email>
+<phone> 494000112345 </phone>
+</address>
+<book>
+<Cname> 1 book purashed
+
+</Cname>
+</book>
+</Customer>
+
+<Customer>
+<name>
+<firstname> SHRI </firstname>
+<lastname> RAJ </lastname>
+</name>
+<address>
+<street> 3rd cross main road </street>
+<city> bangalore </city>
+<email> shri@gmail.com</email>
+<phone> 09876541234 </phone>
+</address>
+<book>
+<Cname>2 books purshaes
+</Cname>
+</book>
+</Customer>
+
+<Customer>
+<name>
+<firstname> laxmy </firstname>
+<lastname> Narayan </lastname>
+</name>
+<address>
+<street> 4th cross main road </street>
+<city> bangalore </city>
+<email>laxmy007@gmail.com</email>
+<phone> 494000234 </phone>
+</address>
+<book>
+<Cname> 4 books purshaes
+</Cname>
+</book>
+</Customer>
+
+<Customer>
+<name>
+<firstname> Raj </firstname>
+<lastname> Kumar </lastname>
+</name>
+<address>
+<street> 202 Victoria Road </street>
+<city> banglore </city>
+<email> raj@gmai.com</email>
+<phone> 4940002 </phone>
+</address>
+<book>
+<Cname> 7 books purshaes
+</Cname>
+</book>
+</Customer>
+</bookland>
